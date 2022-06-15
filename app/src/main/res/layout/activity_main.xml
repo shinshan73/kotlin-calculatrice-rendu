@@ -37,6 +37,7 @@
 
                 <Button
                     android:id="@+id/button7"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -45,6 +46,7 @@
 
                 <Button
                     android:id="@+id/button8"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -53,6 +55,7 @@
 
                 <Button
                     android:id="@+id/button9"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -61,6 +64,7 @@
 
                 <Button
                     android:id="@+id/buttonDivision"
+                    android:onClick="operatorEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -77,6 +81,7 @@
 
                 <Button
                     android:id="@+id/button4"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -85,6 +90,7 @@
 
                 <Button
                     android:id="@+id/button5"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -93,6 +99,7 @@
 
                 <Button
                     android:id="@+id/button6"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -101,6 +108,7 @@
 
                 <Button
                     android:id="@+id/buttonMultiplication"
+                    android:onClick="operatorEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -117,6 +125,7 @@
 
                 <Button
                     android:id="@+id/button1"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -125,6 +134,7 @@
 
                 <Button
                     android:id="@+id/button2"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -133,6 +143,7 @@
 
                 <Button
                     android:id="@+id/button3"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -141,6 +152,7 @@
 
                 <Button
                     android:id="@+id/buttonSoustraction"
+                    android:onClick="operatorEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -156,6 +168,7 @@
 
                 <Button
                     android:id="@+id/buttonPourcentage"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -164,6 +177,7 @@
 
                 <Button
                     android:id="@+id/button0"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -172,6 +186,7 @@
 
                 <Button
                     android:id="@+id/buttonPoint"
+                    android:onClick="numberEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -180,6 +195,7 @@
 
                 <Button
                     android:id="@+id/buttonAddition"
+                    android:onClick="operatorEvent"
                     android:layout_width="wrap_content"
                     android:layout_height="69dp"
                     android:layout_marginRight="1dp"
@@ -194,6 +210,7 @@
 
                 <Button
                     android:id="@+id/buttonC"
+                    android:onClick="clearEvent"
                     android:layout_width="206dp"
                     android:layout_height="match_parent"
                     android:layout_marginRight="1dp"
@@ -202,6 +219,7 @@
                 <Button
                     android:id="@+id/buttonEgal"
                     android:layout_width="206dp"
+                    android:onClick="equalEvent"
                     android:layout_height="74dp"
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
